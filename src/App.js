@@ -106,7 +106,7 @@ function App() {
             <input
               type="text"
               name="time"
-              placeholder="Estimed time (hours)"
+              placeholder="Estimated time (hours)"
               onChange={(e) => setTime(e.target.value)}
               value={time || ""}
               required
